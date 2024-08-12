@@ -49,3 +49,5 @@ Este projeto é uma aplicação que utiliza Docker Compose para criar um ambient
 
    ```bash
    docker-compose up -d --build
+3. **Problemas e melhorias futuras:**
+   Quando terminar de subir os containers, e entrar no endereço ``` http://localhost:8080/``` podeser que ocorraum erro de acesso , mas basta aguardar 3 segundos e atualizar a pagina novamente , pois este é o momento que o codigo tenta criar os registros.
